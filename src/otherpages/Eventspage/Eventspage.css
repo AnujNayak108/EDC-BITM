@@ -33,6 +33,7 @@ body {
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
+  margin-top: 1rem;
 }
 
 .event-card:hover {
@@ -87,6 +88,10 @@ body {
   margin: 5px 0;
   font-size: 12px;
   color: #000000;
+}
+
+.register-button:hover {
+  transform: scale(1.1);
 }
 
 .participate-button {

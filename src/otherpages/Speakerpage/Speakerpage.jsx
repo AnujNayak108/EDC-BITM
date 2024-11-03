@@ -4,25 +4,15 @@ import blobR from "../../assets/blobR.png"
 import akshay from './akshay.png'
 import vatsal from './vatsal.png'
 import ravi from './ravi.png'
-import jyoti from './jyoti.jpg'
 import pawan from './pawan.png'
-import rahul from './rahul.png'
 import aman from './aman.png'
-import vineet from './vineet.png'
 import ayush from './ayush.png'
-import anshul from './anshul.png'
-import anmol from './anmol.png'
-import aditya from './aditya.png'
 import richa from './richa.png'
 import sreedhar from './sreedhar.png'
-import adityaRanjan from './adityaRanjan.png'
+import adityaRanjan from './aditya.jpeg'
 import rishavJain from './Rishabh Jain.png'
-import prateek from './prateek.png'
-import sanjeev from './sanjeev.png'
 import karan from './karan.png'
 import amit from './amit.png'
-
-
 import '../Speakerpage/speakerpage.css'
 
 
@@ -36,12 +26,13 @@ function Speakerpage() {
                 <span className='text-4xl sm:text-5xl uppercase font-bold'>who graced our events</span>
                 </div>
             </div>
-            <div className="lg:m-20 pl-12 pr-12 lg:pl-12 lg:pr-12 w-full">
+            <div data-aos="zoom-in">
+            <div className="p-12 w-full">
             <div className="flex flex-row justify-start items-center pt-8 md:p-0 mb-6">
                 <div className="h-[50px] w-[50px] bg-[#FED853]"></div>
                 <h1 className="text-[20px] sm:text-[25px] ml-[-35px] font-bold">Notable Past Speakers</h1>
             </div>
-            <div className='grid md:grid-cols-3 grid-cols-1 md:p-8 gap-8 pb-8'>
+            <div className='grid md:grid-cols-3 grid-cols-1 sm:p-8 gap-8 pb-8 mx-auto justify-items-center'>
               <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
                 <img src={aman} className='' alt="" />
                 <h1 className=' text-xl md:text-2xl'>Aman Dhattarwal</h1>
@@ -99,20 +90,18 @@ function Speakerpage() {
                 <h2 className='text-sm md:text-lg font-normal'>Co-founder - Crio.do</h2>
               </div>
               <div className='glass-morphism flex flex-col md:p-20 p-8 justify-center items-center gap-2 font-bold'>
-                <img src={adityaRanjan} alt="" />
+                <img src={adityaRanjan} alt="" class='rounded-full'/>
                 <h1  className=' text-lg md:text-2xl'>Aditya Ranjan</h1>
                 <h2 className='text-sm md:text-lg font-normal'>Journey of an IAS</h2>
               </div>
-
             </div>
-            
         </div>
-        
         </div>
         <img src={blob} class="blob11 -z-10 mt-10" />
             <img src={blob} class="blob22 -z-10" />
             {/* <img src={blobR} class="blob33 -z-10" /> */}
             <img src={blobR} class="blob55 -z-10" />
+    </div>
     </>
      )
  }
