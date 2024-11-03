@@ -46,8 +46,8 @@ const Footer = () => {
   };
 
   return (
-    <div className="footer">
-      <div className="md:ml-20 flex flex-col justify-center items-center">
+    <div className="overflow-x-hidden footer">
+      <div className=" flex flex-col justify-center items-center w-screen">
         <div className="flex md:flex-row flex-col">
           <div className="flex md:flex-row flex-col">
             <div className="sb__footer-links_edc scale-125">
